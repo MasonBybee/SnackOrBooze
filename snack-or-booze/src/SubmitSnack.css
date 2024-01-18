@@ -1,0 +1,25 @@
+.submitSnackForm {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.submitSnackForm input,
+select {
+  display: inline-block;
+  width: 100%;
+  margin: 5px;
+}
+
+.formContainer {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  padding: 50px;
+  border-radius: 20px;
+}
